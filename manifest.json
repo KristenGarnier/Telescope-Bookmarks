@@ -1,0 +1,24 @@
+{
+	"manifest_version": 3,
+	"name": "Telescope Bookmarks",
+	"version": "1.0.0",
+	"action": { "default_popup": "index.html" },
+	"permissions": ["bookmarks", "favicon", "tabs"],
+	"background": {
+		"service_worker": "src/background.ts"
+	},
+	"icons": {
+		"16": "icon16.png",
+		"32": "icon32.png",
+		"48": "icon48.png",
+		"128": "icon128.png"
+	},
+	"commands": {
+		"_execute_action": {
+			"suggested_key": {
+				"default": "Alt+F"
+			},
+			"description": "Ouvre l'extension Telescope Bookmarks"
+		}
+	}
+}
