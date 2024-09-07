@@ -3,7 +3,7 @@
 	"name": "Telescope Bookmarks",
 	"version": "1.0.0",
 	"action": { "default_popup": "index.html" },
-	"permissions": ["bookmarks", "favicon", "tabs"],
+	"permissions": ["bookmarks"],
 	"background": {
 		"service_worker": "src/background.ts"
 	},
